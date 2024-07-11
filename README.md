@@ -81,4 +81,4 @@
 		○ Model forecast
 		○ Call back for val_mae
 		○ Decayed_learning_rate
-			§ At some point, the static learning rate you set might no longer be the optimal one when the model has been learning for some time. You may want to decrease it some more to see better improvements. One way to do that is to have your training loop gradually decay the learning rate per epoch. You can pass in a lambda function similar like the one you did for the learning rate scheduler earlier, or use ExponentialDecay(). This is a built in scheduler from the Keras API. This decays the learning rate defined by this function
+			
